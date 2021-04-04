@@ -1,5 +1,14 @@
 # Altitude-and-Mortality-csv-file-lmdata
 * * Manipualting and visualizing data with Python and core plotting libriaries Matplotlib and Seaborn
+# import libraries
+* import pandas as pd
+* from pandas import DataFrame
+* import numpy as np
+* import matplotlib.pyplot as plt
+* import seaborn as sns
+* from statsmodels.formula.api import ols
+* import statsmodels.api as sm
+
 # 1: Load the data and print the column names
 * * load data as a pandas dataframe and look at the columns
 * df = pd.read_csv('/lmdata.csv')
@@ -15,6 +24,7 @@ df.describe()
 
 # 3: Create a line plot for the variables. Add a title and x & y axes.
     ![image](https://user-images.githubusercontent.com/17750481/113517257-7b7f5c80-9587-11eb-83a0-8502ea3d28da.png)
+![image](https://user-images.githubusercontent.com/17750481/113518603-0401fb00-9590-11eb-904d-4db1303c647a.png)
 
 # 4: Create a scatter plot / Add title and (X,Y) axis names
 ![image](https://user-images.githubusercontent.com/17750481/113517273-94880d80-9587-11eb-974b-19d62ca01a42.png)
