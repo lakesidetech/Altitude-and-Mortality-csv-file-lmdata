@@ -1,7 +1,7 @@
 # Altitude-and-Mortality-csv-file-lmdata
-Generate descriptive statistics for the data using Numpy, pandas, Python, and Seaborn
+* * Manipualting and visualizing data with Python and core plotting libriaries Matplotlib and Seaborn
 # 1: Load the data and print the column names
-* 1:load data as a pandas dataframe and look at the columns
+* * load data as a pandas dataframe and look at the columns
 * df = pd.read_csv('/lmdata.csv')
 * print (df)
 
