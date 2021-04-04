@@ -26,10 +26,17 @@ df.describe()
 ![image](https://user-images.githubusercontent.com/17750481/113517306-c7ca9c80-9587-11eb-9d87-201eefc9b42d.png)
 
 # 7: Create a pair plot for the data
+![image](https://user-images.githubusercontent.com/17750481/113518135-02830380-958d-11eb-8460-b487c7e40f1d.png)
 
-# Create the default pairplot
-# 8: Type in this command: from statsmodels.formula.api import ols
-# 9: Create a Seaborn regplot of the regression model and a 95% confidence interval
-# plot the regression model y ~ x and a 95% confidence interval for that regression
+# 8: Create a Seaborn regplot of the regression model and a 95% confidence interval
+![image](https://user-images.githubusercontent.com/17750481/113517413-78d13700-9588-11eb-86dd-95f87a4b192a.png)
+
 # 10: Create the regression model using ols() from the statsmodel package
+* lm = sm.OLS.from_formula('latitude ~ mortality', df)
+ * result = lm.fit()
+* #11: Print the model Summary
+* print(result.summary())
+
 # 11: Print the model Summary
+![image](https://user-images.githubusercontent.com/17750481/113517333-f2b4f080-9587-11eb-9974-138e08615c62.png)
+
