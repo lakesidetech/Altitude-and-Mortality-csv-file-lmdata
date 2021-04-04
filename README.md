@@ -32,7 +32,8 @@ df.describe()
 ![image](https://user-images.githubusercontent.com/17750481/113517413-78d13700-9588-11eb-86dd-95f87a4b192a.png)
 
 # 10: Create the regression model using ols() from the statsmodel package
-* Now, let's fit a simple linear model (OLS - for "ordinary least squares" method) with  latitude  as the response and mortality as the predictor:
+* * Now, let's prepare a simple linear model (OLS - for "ordinary least squares" method) with  latitude  as the response and mortality as the predictor:
+* * type of linear least squares method for estimating the unknown parameters in a linear regression model
 * lm = sm.OLS.from_formula('latitude ~ mortality', df)
  * result = lm.fit()
 * #11: Print the model Summary
