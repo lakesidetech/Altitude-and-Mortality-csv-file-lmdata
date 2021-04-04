@@ -1,7 +1,7 @@
 # Altitude-and-Mortality-csv-file-lmdata
 Generate descriptive statistics for the data using Numpy, pandas, Python, and Seaborn
 # 1: Load the data and print the column names
-* 1: Load the data and print the column names
+* 1:load data as a pandas dataframe and look at the columns
 * df = pd.read_csv('/lmdata.csv')
 * print (df)
 
@@ -32,11 +32,13 @@ df.describe()
 ![image](https://user-images.githubusercontent.com/17750481/113517413-78d13700-9588-11eb-86dd-95f87a4b192a.png)
 
 # 10: Create the regression model using ols() from the statsmodel package
+* Now, let's fit a simple linear model (OLS - for "ordinary least squares" method) with  latitude  as the response and mortality as the predictor:
 * lm = sm.OLS.from_formula('latitude ~ mortality', df)
  * result = lm.fit()
 * #11: Print the model Summary
 * print(result.summary())
 
 # 11: Print the model Summary
+* To get detailed information about the model
 ![image](https://user-images.githubusercontent.com/17750481/113517333-f2b4f080-9587-11eb-9974-138e08615c62.png)
 
